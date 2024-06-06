@@ -5,7 +5,7 @@ const fileUpload = require('express-fileupload')
 const cors = require('cors')
 
 const corseOption = {
-    origin: 'https://food-paradise-frontend.vercel.app', 
+    origin: 'https://food-paradise-frontend.vercel.app/', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, 
     optionsSuccessStatus: 204
