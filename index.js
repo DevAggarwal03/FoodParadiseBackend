@@ -2,6 +2,14 @@ const express = require('express')
 const app = express()
 const appRouter = require('./routes/appRoutes')
 const fileUpload = require('express-fileupload')
+const cors = require('cors')
+
+const corseOption = {
+    origin: 'https://food-paradise-frontend.vercel.app', 
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true, 
+    optionsSuccessStatus: 204
+}
 
 require('dotenv').config()
 
