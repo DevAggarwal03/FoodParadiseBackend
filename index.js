@@ -7,7 +7,7 @@ const cors = require('cors')
 app.use(cors())
 
 const corseOption = {
-    origin: 'https://food-paradise-frontend.vercel.app/', 
+    origin: 'https://food-paradise-frontend.vercel.app', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, 
     optionsSuccessStatus: 204
